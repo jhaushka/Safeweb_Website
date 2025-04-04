@@ -1,0 +1,28 @@
+/* App.css */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.content {
+  flex: 1;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px; /* Sets base font size for rem units */
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+  -webkit-text-size-adjust: 100%; /* Prevents font scaling in landscape */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; /* Improves font rendering */
+  height: 100%; /* Ensures full height for sticky footers */
+}
+
+/* Universal Box Sizing */
+*, *::before, *::after {
+  box-sizing: inherit; /* Ensures consistent box model */
+  margin: 0;
+  padding: 0;
+}
